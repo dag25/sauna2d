@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CenterLogistic</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <!-------------Magnific popup css file------------->
+        <link href="./assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+        <!-------------Magnific popup css file------------->
+        <link rel="stylesheet" href="./assets/css/aos.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="spinner-container">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+<div class="page">
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo" href="#" data-scroll="#intro">
+                    <img class="img" src="./assets/images/logo/sauna.png" alt="logo">
+                    <span class="header__logo-text">Баня на 2-й Дачной</span>
+                </a>
+
+                <button class="burger" id="navToggle" type="button">
+                    <span class="burger__line">1</span>
+                    <span class="burger__line">2</span>
+                    <span class="burger__line">3</span>
+                    <span class="burger__line">4</span>
+                    <span class="burger__tip  burger__tip--menu">Меню</span>
+                    <span class="burger__tip  burger__tip--close">Закрыть</span>
+                </button>
+
+                <nav class="nav" id="nav">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#services" data-content="Услуги">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#gallery" data-content="Галерея">Галерея</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#feedback" data-content="Отзывы">Отзывы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#about" data-content="О нас">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#prices" data-content="Цены">Цены</a>
+                        </li>                        
+                        <li class="menu__item">
+                            <a class="menu__link" href="#" data-scroll="#contacts"
+                                data-content="Контакты">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                
+
+            </div> <!-- /header__inner -->
+        </div><!-- /.container -->
+    </header>
+
+    <!-- Intro -->
+
+    <div class="intro" id="intro">
+
+        <div class="intro__slider" id="introSlider">
+            
+            <div class="slider-item"> 
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide-1.jpg');">
+                </div>               
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide-2.jpg');">
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide-3.jpg');">
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide-4.jpg');">
+                </div>
+            </div>            
+
+        </div><!-- /#introSlider -->
+        <div class="container  intro__container">
+            <div class="intro__inner">
+                
+
+                <div class="intro__text" data-aos="fade-left">
+                    <div class="intro__countries">Для любителей парного отдыха</div>
+                    <h1 class="intro__title">
+                        Русская<br>    
+                        Баня
+                    </h1>
+                </div><!-- /.intro__text -->
+
+                <div class="intro__slider-arrows">
+                    <button class="intro__slider-btn  intro__slider-btn--prev" id="introSliderPrev" type="button">Prev</button>
+                    <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext" type="button">Next</button>
+                </div> <!-- /.intro__slider-arrows -->
+                <button class="btn  btn--orange  btn--shadow  btn--inner" href="#" type="button"
+                    data-modal="becomeClientModal"><span>Забронировать</span></button>
+            </div><!-- /.into__inner -->
+            
+        </div> <!-- /.container -->
+    </div><!-- /.into -->
+
+    <!-- services -->
+
+    <section class="section" id="services" data-scrollspy="#services">
+        <div class="container">
+            <h2 class="section__title">
+                Услуги
+            </h2>
+            
+            <div class="services">                
+
+                <div class="services__item" data-aos="fade-down">
+                    <h4 class="services__title">
+                        Аквазона
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Бассейн с кристально чистой водой для того, чтобы охладить тело и взбодриться после
+                            насыщенных парных процедур, душ
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <img src="./assets/images/services/pool.png" alt="pool">
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="100">
+                    <h4 class="services__title">
+                        Развлечения
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Караоке, телевизор, аудиоцентр, светомузыка
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <img src="./assets/images/services/micro.png" alt="micro">
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="200">
+                    <h4 class="services__title">
+                        Комната отдыха
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Просторный гостевой зал, выполненный в классическом
+                            русском стиле и обивкой из натурального дерева;
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <img src="./assets/images/services/room.png" alt="room">
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="300">
+                    <h4 class="services__title">
+                        Дополнительно
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Тапочки, простыни, полотенца,шампунь, мыло, мочалка, посуда.
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <img src="./assets/images/services/towel.png" alt="add">
+                    </div>
+                </div><!-- /.services__item -->
+
+            </div><!-- /.services -->
+        </div><!-- /.container -->
+    </section>
+
+    <!-- works -->
+
+    <section class="section  section-works" id="gallery" data-scrollspy="#gallery">
+        
+            <div class="container">
+                <h2 class="section__title">
+                    Галерея
+                </h2>
+            </div>
+
+            <div class="works" data-aos="fade-down">
+
+                <div class="works__item">
+                    <a class="works__link" href="./assets/images/works/work-1.JPG"
+                        title="image description will be here">
+                        <img class="works__img-responsive" src="./assets/images/works/work-1.JPG" alt="">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-2.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-2.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-3.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-3.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-4.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-4.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-1.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-1.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-6.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-6.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-7.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-7.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+                <div class="works__item">
+                    <a href="./assets/images/works/work-1.JPG" class="works__link"
+                        title="image description will be here">
+                        <img src="./assets/images/works/work-1.JPG" alt="" class="works__img-responsive">
+                    </a>
+                </div>
+
+            </div>
+        
+    </section>
+
+
+    <!-- clients -->
+    <section class="section" id="feedback" data-scrollspy="#feedback">
+        <div class="container">
+            <h2 class="section__title">
+                Отзывы
+            </h2>
+
+            <div class="clients" data-aos="fade-down">
+                
+                <div class="clients__reviews">
+                    <div class="reviews" id="reviewsSlider">
+                        <div class="reviews__item">
+                            <div class="reviews__header">
+                                <img class="reviews__photo" src="https://placehold.it/100" alt="">
+                                <div class="reviews__header-content">
+                                    <div class="reviews__name">Данила</div>
+                                    <div class="reviews__company">банщик со стажем)</div>
+                                </div><!-- /reviews__header-content -->
+                            </div><!-- /.reviews__header -->
+                            <div class="reviews__content">
+                                <p>Отличное местечко как для празднования какого-то события, так и просто для приятного времяпровождения в выходной день. </p>
+                                <p>Очень рекомендую</p>
+                            </div><!-- /.reviews__content -->
+                        </div><!-- /.reviews__item -->
+
+                        <div class="reviews__item">
+                            <div class="reviews__header">
+                                <img class="reviews__photo" src="https://placehold.it/100" alt="">
+                                <div class="reviews__header-content">
+                                    <div class="reviews__name">Мария</div>
+                                    
+                                </div><!-- /reviews__header-content -->
+                            </div><!-- /.reviews__header -->
+                            <div class="reviews__content">
+                                <p>Отдыхали семьей. Хорошее место, оформленное должным образом. Чисто, комфортно</p>
+                                <p>Спасибо. Придем еще раз обязательно</p>
+                            </div><!-- /.reviews__content -->
+                        </div><!-- /.reviews__item -->
+
+                    </div><!-- /.reviews -->
+                </div><!-- /.clients__reviews -->
+            </div><!-- /clients -->
+
+            <button class="btn  btn--orange  btn--shadow" href="#" type="button" data-modal="becomeClientModal"><span>Стать клиентом</span></button>
+            <span class="clients-love">Мы любим наших клиентов</span>
+        </div> <!-- /.container -->
+    </section>
+
+
+    <!-- mission -->
+
+    <section class="section" id="about" data-scrollspy="#about">
+        <div class="container">
+            <h2 class="section__title">
+                О нас
+            </h2>
+            
+            <div class="mission" data-aos="fade-up">
+                <h3 class="mission__title">
+                    Наша Баня открыта для всех тех, кто заботится о своем здоровье, ищет расслабляющего времяпровождения, умеет наслаждаться горячим воздухом и тонким ароматом целебных трав. Обещаем, что Вы погрузитесь в беззаботный мир блаженства, а после посещения Вы зарядитесь на целую неделю бодростью и позитивом.  
+                </h3>
+                <h4 class="mission__subtitle">
+                    Место где можно хорошо отдохнуть.
+                </h4>
+            </div><!-- /.mission -->
+            <div class="text-center">
+                <button class="btn  btn--orange  btn--shadow" type="button" data-modal="becomeClientModal">
+                    <span>Забронировать</span>
+                </button>
+            </div>
+        </div><!-- /.container -->
+    </section>
+
+    <!-- prices -->
+
+    <section class="section  section--last" id="prices" data-scrollspy="#prices">
+        <div class="container">
+            <h2 class="section__title">
+                Цены
+            </h2>
+
+            <div class="prices">
+
+                <div class="prices__card" data-aos="fade-right">
+                    <div class="prices__box" data-text="С 8.00 до 17.00">
+                        <img class="prices__img" src="./assets/images/prices/img-1.png" alt="">
+                    </div>
+                    <div class="prices__content">
+                        <div class="content__text">
+                            <h3 class="prices__content-title">
+                                С 8.00 до 17.00
+                            </h3>
+                            <p>500 руб./час. до 7 чел., свыше 100 руб./гость
+                            </p>
+                            <button class="btn  btn--orange  btn--shadow" type="button" data-modal="becomeClientModal">
+                                <span>Забронировать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prices__card" data-aos="fade-left">
+                    <div class="prices__box" data-text="С 17.00 до 8.00">
+                        <img class="prices__img" src="./assets/images/prices/img-1.png" alt="">
+                    </div>
+                    <div class="prices__content">
+                        <div class="content__text">
+                            <h3 class="prices__content-title">
+                                С 17.00 до 8.00
+                            </h3>
+                            <p>800 руб./час. до 7 чел., свыше 100 руб./гость
+                            </p>
+                            <button class="btn  btn--orange  btn--shadow" type="button" data-modal="becomeClientModal">
+                                <span>Забронировать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prices__card" data-aos="fade-right">
+                    <div class="prices__box" data-text="Услуги">
+                        <img class="prices__img" src="./assets/images/prices/img-2.png" alt="">
+                    </div>
+                    <div class="prices__content">
+                        <div class="content__text">
+                            <h3 class="prices__content-title">
+                                Услуги
+                            </h3>
+                            <ul>
+                                <li>полотенце - 50руб./шт</li>
+                                <li>одноразовые тапки - 50 руб./шт</li>
+                                <li>многоразовые тапки - бесплатно</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prices__card" data-aos="fade-left">
+                    <div class="prices__box" data-text="Выходные">
+                        <img class="prices__img" src="./assets/images/prices/img-3.png" alt="">
+                    </div>
+                    <div class="prices__content">
+                        <div class="content__text">
+                            <h3 class="prices__content-title">
+                                Выходные
+                            </h3>
+                            <p>800 руб./час. до 7 чел., свыше 100 руб./гость
+                            </p>
+                            <button class="btn  btn--orange  btn--shadow" type="button" data-modal="becomeClientModal">
+                                <span>Забронировать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.prices -->
+
+            
+        </div><!-- /.container -->
+    </section>
+
+    <section class="section  section--contacts" id="contacts" data-scrollspy="#contacts">
+
+        <div class="container  container--contacts">
+            <h2 class="section__title  section__title--contacts">
+                Контакты
+            </h2>
+
+            <div class="contacts__info" data-aos="fade-right">
+                <h2 class="contacts__title">
+                    Свяжитесь с нами
+                </h2> <!-- /.contacts__title -->
+                <p class="contacts__phone">
+                    <span>Телефон:</span>
+                    <a href="tel:+78452714417">+7(8452)71-44-17</a>
+                </p>
+                <p class="contacts__mail">
+                    <span>Почта:</span>
+                    <a href="mailto:i.askar777@yandex.ru">i.askar777@yandex.ru</a>
+                </p>
+                <p class="contacts__guest">Или приезжайте к нам в гости</p>
+                <p class="contacts__address">
+                    <span>
+                        Адрес:
+                    </span>
+                    <span>
+                        Саратов, ул.Зологическая,
+                        3
+                    </span>
+                </p>
+                <p class="contacts__shema">
+                    <span>Как найти нас быстро</span>
+                    <a href="https://yandex.ru/maps/194/saratov/?ll=45.980924%2C51.569690&mode=search&oid=1074328336&ol=biz&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=16.8"
+                        target="_blank">Построить маршрут</a>
+                </p>
+            </div><!-- /.contacts__info -->
+
+
+        </div><!-- /.container -->
+    </section><!-- /.contacts section -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <a class="header__logo  header__logo--black" href="#" data-scroll="#intro">
+                <img src="./assets/images/logo/sauna.png" alt="logo">
+                <span class="header__logo-text">Баня на 2-й Дачной</span>
+            </a>
+            <address class="footer__contacts">
+                <p>
+                    Саратов, ул.Зоологическая, 3                      
+                </p>
+                <p>
+                    Свяжитесь с нами:<br>
+                    телефон:
+                    <a href="telto:+88452714417">+8(8452)71-44-17</a>
+                    или E-mail: 
+                    <a href="mailto:i.askar777@yandex.ru">i.askar777@yandex.ru</a>
+                </p>
+            </address>
+            
+        </div><!-- /.container -->
+    </footer>
+</div><!-- /page -->
+        
+        <!-- modals -->
+
+        <div class="modal" id="becomeClientModal">
+            <video src="./assets/images/video/smoke.mp4" autoplay="autoplay" muted="muted" loop="loop" width="100%"
+                height="100%"></video>
+            <div class="modal__inner">
+
+                <div class="modal__content">
+
+                    <div class="modal__header">
+                        <h4 class="modal__title">
+                            Хотите хорошо отдохнуть
+                        </h4>
+                        <div class="modal__text">
+                            <p>
+                                Заполните форму и мы Вам скоро перезвоним
+                            </p>
+                        </div><!-- /.modal__text -->
+                    </div><!-- /.modal__header -->
+    
+                    <form class="form">
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Баня на 2 Дачной">
+                        <input type="hidden" name="admin_email" value="gda-saratov@yandex.ru">
+                        <input type="hidden" name="form_subject" value="mod">
+                        <!-- END Hidden Required Fields -->
+    
+                        <div class="form__group">
+                            <input class="input  input--dark  input--user" type="text" name="name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__group">
+                            <input class="input  input--dark  input--phone" type="tel" name="phone" placeholder="Ваш телефон">
+                        </div>
+                        <div class="form__group">
+                            <input class="input  input--dark  input--email" type="email" name="email" placeholder="Ваша почта">
+                        </div>
+    
+                        <button class="btn  btn--block  btn--orange" type="submit">
+                            <span>Перезвоните мне</span>
+                        </button>
+    
+                    </form>
+    
+                    <div class="modal__footer">
+                        <h4 class="modal__footer-title">
+                            Наши контакты
+                        </h4>
+                        <address class="modal__contacts">
+                            <p>Саратов, Зоологическая, 3</p>
+                            <p>Телефон: 
+                                <a href="telto:+88452714417">+8(8452)71-44-17</a>
+                            </p>
+                            <p>E-mail: 
+                                <a href="mailto:hello@i.askar777@yandex.ru">i.askar777@yandex.ru</a>
+                            </p>
+                        </address>
+                    </div><!-- /.modal__footer -->
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="./assets/images/close.svg" alt="close">
+                    </button>
+                </div> <!-- /modal__content -->
+
+            </div><!-- /.modal__inner -->
+            
+        </div><!-- /.modal -->
+
+        <div class="modal" id="thanksModal">
+            <div class="modal__inner">
+            <div class="modal__content">
+                    <div class="modal__header">
+                        <img class="modal__icon" src="./assets/images/tick.svg" alt="tick">
+                        <h4 class="modal__title">
+                            Спасибо за обращение!
+                        </h4>
+                        <div class="modal__text">
+                            <p>
+                                Мы скоро Вам перезвоним!
+                            </p>
+                        </div><!-- /.modal__text -->
+                    </div><!-- /.modal__header -->
+    
+                    
+                    <div class="modal__footer">
+                        <h4 class="modal__footer-title">
+                            Наши контакты
+                        </h4>
+                        <address class="modal__contacts">
+                            <p>Саратов, ул.Зоологическая, 3</p>
+                            <p>Телефон:
+                                <a href="telto:+78452714417">+7(8452)71-44-17</a>
+                            </p>
+                            <p>E-mail:
+                                <a href="mailto:i.askar777@yandex.ru">i.askar777@yandex.ru</a>
+                            </p>
+                        </address>
+                    </div><!-- /.modal__footer -->
+                    <button class="modal__close" type="button">
+                        <img src="./assets/images/close.svg" alt="close">
+                    </button>
+            </div><!-- /modal__content -->
+            </div><!-- /.modal__inner -->
+        </div><!-- /.modal -->
+
+
+        <!-- script -->
+        
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+        <script src="./assets/js/jquery.ripples-min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
