@@ -369,11 +369,11 @@ body.show-nav .header {
     position: absolute;
     top: 0;
     left: 0;
-    color: var(--color-yellow);
+    color: var(--color-red);
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.9s ease-in-out;
 }
 
 .menu__link:hover::before {
