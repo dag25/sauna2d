@@ -296,16 +296,16 @@ body.show-nav .header {
 .header__logo-text {
     font-size: 20px;
     font-weight: 500;
-    color: var(--color-yellow);
-    -webkit-text-stroke: 1px var(--color-red);
+    color: var(--color-white);
+    -webkit-text-stroke: 1px var(--color-yellow);
 
     margin-left: 11px;
 
     position: relative;
     top: 2px;
 
-    -webkit-filter: drop-shadow(10px 5px 5px #A3A3A3);
-    filter: drop-shadow(10px 5px 5px #A3A3A3);
+    -webkit-filter: drop-shadow(10px 5px 5px #272626);
+    filter: drop-shadow(10px 5px 5px #141414);
 }
 
 /* nav */
@@ -408,8 +408,8 @@ body.show-nav .header {
 
     cursor: pointer;
 
-    -webkit-filter: drop-shadow(10px 5px 5px #A3A3A3);
-    filter: drop-shadow(10px 5px 5px #A3A3A3);
+    -webkit-filter: drop-shadow(10px 5px 5px #272626);
+    filter: drop-shadow(10px 5px 5px #141414);
 }
 
 .burger__tip {
