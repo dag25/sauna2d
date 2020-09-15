@@ -2143,6 +2143,16 @@ body.show-nav .header {
 
 @media (max-width: 575px) {
 
+    .burger:hover .burger__tip--menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .burger.active:hover .burger__tip--close {
+        opacity: 0;
+        visibility: hidden;
+    }
+
     /* intro */
 
 
